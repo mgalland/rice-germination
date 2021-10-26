@@ -1,0 +1,84 @@
+---
+title: "Water uptake kinetics"
+author: "Marc Galland"
+date: "10/26/2021"
+output: 
+  pdf_document:
+    toc: true
+---
+
+```{r}
+suppressPackageStartupMessages(library("Hmisc"))
+```
+
+# Water uptake data import
+
+```{r}
+fw = read.table("./water_uptake_data.txt",
+                header=T,
+                sep="\t",
+                dec=".",
+                as.is=T)
+```
+
+\newpage
+
+# First model for 0 - 32h
+
+Equation for germination phase I and II: y = f(x) = sqrt(x) 
+```{r}
+fit2 = lm(formula = mean_fw ~ sqrt(timepoint), data = fw[1:17,])
+summary(fit2)
+```
+
+
+# Second model for 32 - 72h
+
+```{r}
+fit3 = lm(mean_fw ~ timepoint, data=fw[18:32,])
+summary(fit3)
+```
+
+# Plots
+```{r}
+pdf("plot_water_uptake_with_errbars.pdf")
+with(fw,plot(timepoint, 
+             mean_fw,
+             type="o",
+             col="black",
+             xaxt="n",
+             xlab="Time after imbibition",
+             ylab="Fresh weight of 25 seeds (mg)"))
+
+with(fw,
+     errbar(timepoint,
+            mean_fw,
+            yplus = mean_fw + sd_fw,
+            yminus = mean_fw - sd_fw, 
+            add = TRUE,
+            col="black"))
+dev.off()
+```
+
+## Plot with fits overlaid
+```{r}
+pdf(file = "plot_water_uptake_analysis.pdf", width = 10, height = 7)
+with(fw,plot(x = timepoint, 
+             y = mean_fw, 
+             type="p",
+             col="black",
+             xaxt="n",
+             xlab="Time after imbibition",
+             ylab="Fresh weight of 25 seeds (mg)"))
+
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))
+
+with(fw,lines(timepoint[18:32], predict(fit3),col="red",lwd=2))
+with(fw,lines(timepoint[1:17], predict(fit2),col="green",lwd=2))
+
+# legend of plot B
+legend(4,40,c("Linear regression 0-32h","Linear regression 34-72h"),lty=c(2,2),lwd=c(2,2),col=c("green","red"))
+dev.off()
+
+```
+

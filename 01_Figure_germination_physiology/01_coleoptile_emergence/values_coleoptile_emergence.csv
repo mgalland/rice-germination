@@ -1,0 +1,15 @@
+﻿petri_id,phenotype,t00,t04,t08,t12,t16,t24,t32,t40,t48
+petri_dish_01,germinated,0,NA,1,NA,20,25,25,25,25
+petri_dish_02,germinated,0,NA,2,NA,14,25,25,25,25
+petri_dish_03,germinated,0,NA,2,NA,15,25,25,25,25
+petri_dish_04,germinated,0,NA,1,NA,15,25,25,25,25
+petri_dish_05,germinated,0,0,1,7,24,36,NA,NA,NA
+petri_dish_06,germinated,0,0,1,1,6,22,NA,NA,NA
+petri_dish_07,germinated,0,0,NA,7,5,20,NA,NA,NA
+petri_dish_01,total_seeds,25,NA,25,NA,25,25,25,25,25
+petri_dish_02,total_seeds,25,NA,25,NA,25,25,25,25,25
+petri_dish_03,total_seeds,25,NA,25,NA,25,25,25,25,25
+petri_dish_04,total_seeds,25,NA,25,NA,25,25,25,25,25
+petri_dish_05,total_seeds,50,50,50,50,50,50,NA,NA,NA
+petri_dish_06,total_seeds,20,25,25,24,17,25,NA,NA,NA
+petri_dish_07,total_seeds,15,24,NA,20,20,25,NA,NA,NA

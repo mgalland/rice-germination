@@ -1,0 +1,262 @@
+setwd("Figures/Figure1_germination_physiology/")
+fw = read.table("fresh_weight.txt",header=T,sep="\t",dec=",",as.is=T)#
+names(fw)#
+dim(fw)#
+#
+# plot#
+attach(fw)#
+temps=as.numeric(temps)#
+plot(temps,poids,xaxt="n",xlabl) # plot the data without the axis#
+axis(1,at=temps,labels=temps,cex=0.5,las=2)
+fw = read.table("fresh_weight.txt",header=T,sep="\t",dec=",",as.is=T)#
+names(fw)#
+dim(fw)#
+#
+# plot#
+attach(fw)#
+temps=as.numeric(temps)#
+plot(temps,poids,xaxt="n") # plot the data without the axis#
+axis(1,at=temps,labels=temps,cex=0.5,las=2)
+attach()
+str(fw)
+fw$temps=as.numeric(fw$temps)
+fit032 = lm(poids ~ log(temps,2),data=fw[1:17,])#
+summary(fit032)
+plot(temps,poids,xaxt="n") # plot the data without the axis#
+axis(1,at=temps,labels=temps,cex=0.5,las=2)
+xx = seq(from=0,to=48,by=0.05)
+lines(xx,predict(fit032),data.frame(x=xx),col="red")
+xx = seq(from=0,to=32,by=0.05)
+lines(xx,predict(fit032),data.frame(x=xx),col="red")
+predict(fit032)
+xx = seq(from=0,to=32,by=2)
+length(xx)
+lines(xx,predict(fit032),data.frame(x=xx),col="red")
+lines(xx, 732.984+14.046*log(xx,2),col="red")
+xx
+plot(temps[1:17],poids[1:17])
+lines(xx,predict(fit032),col="red")
+fit = fit032
+rm(fit032)
+fit2 = lm(poids ~ sqrt(temps))
+lines(xx,predict(fit2),col="green")
+fit2 = lm(poids ~ sqrt(temps),data=fw[1:17,])
+lines(xx,predict(fit2),col="green")
+summary(fit2)
+temps[1:17]
+fw
+ls()
+rm(fit)
+fit2
+head(fw)
+str(fw)
+dim(fw)
+fw
+plot(fw$temps,fw$poids,data=fw[18:32,])
+plot(fw$temps,fw$poids,with=fw[18:32,])
+plot(fw$temps,fw$poids,type="b")
+plot(fw$temps,fw$poids,type="l")
+plot(fw$temps,fw$poids,type="a")
+plot(fw$temps,fw$poids,type="c")
+plot(fw$temps,fw$poids,type="d")
+plot(fw$temps,fw$poids,type="e")
+plot(fw$temps,fw$poids,type="f")
+plot(fw$temps,fw$poids,type="g")
+plot(fw$temps,fw$poids,type="h")
+plot(fw$temps,fw$poids,type="l")
+plot(fw$temps,fw$poids,type="o")
+plot(fw$temps,fw$poids,type="n")
+plot(fw$temps,fw$poids,type="b")
+plot(fw$temps,fw$poids,type="b",lwd=2)
+?with
+with(fw,plot(temps,poids,type="b"))
+library(Hmisc)
+names(fw)
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,col="black")
+)
+with(fw,plot(temps,poids,type="o"))
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,col="black"))
+with(fw,plot(temps,poids,type="o",col="cornflowerblue"))
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,col="blue"))
+with(fw,plot(temps,poids,type="o",col="cornflowerblue"))
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,errbar.col="cornflowerblue"))
+with(fw,plot(temps,poids,type="c",col="cornflowerblue"))
+with(fw,plot(temps,poids,type="p",col="cornflowerblue"))
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,errbar.col="cornflowerblue"))
+with(fw,plot(temps,poids,type="o",col="grey"))
+with(fw,plot(temps,poids,type="o",col="black"))
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,errbar.col="black"))
+with(fw,plot(temps,poids,type="o",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+axis(1,at=temps,labels=temps,cex=0.5,las=2) # make a custom axis
+fw
+fw[1,1]=c("0")
+fw
+str(fw)
+fw$temps=as.numeric(fw$temps)
+str(fw)
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,errbar.col="black"))
+with(fw,plot(temps,poids,type="o",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+axis(1,at=temps,labels=temps,cex=0.5,las=2) # make a custom axis
+with(fw,plot(temps,poids,type="o",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+axis(1,at=fw$temps,labels=fw$temps,cex=0.5,las=2) # make a custom axis
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,errbar.col="black"))
+svg("fresh_weight.svg",width=10,height=7)
+with(fw,plot(temps,poids,type="o",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+axis(1,at=fw$temps,labels=fw$temps,cex=0.5,las=2) # make a custom axis
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,errbar.col="black"))
+dev.off()
+with(fw,plot(temps,poids,type="b"))
+with(fw,plot(temps,poids,type="b",xaxt="n"))
+with(fw,axis(1,at=temps,labels=temps,cex=0.5,las=2)) # make a custom axis
+ls()
+rm(xx)
+fw
+fit3 = lm(poids ~ temps, data=fw[18:32,])
+summary(fit3)
+lines(fw[18:32,],predict(fit3),col="red")
+fw[18:32,]
+with(fw,lines(temps[18:32],predict(fit3),col="red"))
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="o",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+with(fw,plot(temps,poids,type="b",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48),cex=0.5,las=2))
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=0))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,col="black"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red"))#
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red"))#
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",lwd=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lwd=2))
+svg("fresh_weight_with_fits.svg",width=10,height=7)
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))
+with(fw,lines(temps[18:32],predict(fit3),col="red",lwd=2))
+with(fw,lines(temps[1:17],predict(fit2),col="green",lwd=2))
+dev.off()
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,errbar(temps,poids,yplus=poids+sd,yminus=poids-sd,add=T,col="black"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red"))#
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red"))#
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="b"))#
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l"))#
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=1))#
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lty=2))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lty=2,lwd=2))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=2,lwd=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lty=2,lwd=2))
+?legend
+legend(4,1000,"Germination sensu stricto",col="green",lty=2,lwd=2)
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=2,lwd=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lty=2,lwd=2))
+legend(4,1000,"Germination sensu stricto",col="green",lty=2,lwd=2,border=NULL)
+legend(topleft,"Germination sensu stricto",col="green",lty=2,lwd=2,border=NULL)
+legend("topleft","Germination sensu stricto",col="green",lty=2,lwd=2,border=NULL)
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=2,lwd=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lty=2,lwd=2))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=2,lwd=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lty=2,lwd=2))
+legend(6,1000,c("Linear regression 0-32h","Linear regression 32-72h"),lty=c(2,2),lwd=c(2,2),col=c("green","red"))
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=3,lwd=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lty=2,lwd=2))
+legend(6,1000,c("Linear regression 0-32h","Linear regression 32-72h"),lty=c(2,3),lwd=c(2,2),col=c("green","red"))
+svg()
+dev.off()
+svg("fw_with_fits_2.svg",width=10,height=7)
+with(fw,plot(temps,poids,type="p",col="black",xaxt="n",xlab="Time after imbibition",ylab="Fresh weight of 25 seeds (mg)"))#
+with(fw,axis(1,at=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),labels=c(0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,72),cex=0.5,las=2))#
+with(fw,lines(temps[18:32],predict(fit3),col="red",type="l",lty=3,lwd=2))#
+with(fw,lines(temps[1:17],predict(fit2),col="green",lty=2,lwd=2))
+legend(6,1000,c("Linear regression 0-32h","Linear regression 32-72h"),lty=c(2,3),lwd=c(2,2),col=c("green","red"))
+dev.off()
+germ = read.table("germination.txt",header=T,sep="\t",as.is=T,dec=",")
+germ
+names(germ)=c(temps,germ,sd)
+names(germ)
+names(germ)=c("temps","germ","sd")
+names(germ)
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o"))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex=2))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=2))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=2))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=0))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=2,cex.names=1.5))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=2,cex.lab=1.5))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=2,cex.lab=1.5,xaxt="n"))
+with(data=germ,axis(1,at=c(0,4,8,12,16,24,32,40,48),labels=c(0,4,8,12,16,24,32,40,48))
+)
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=2,cex.lab=1.5,xaxt="n"))
+with(data=germ,axis(1,at=c(0,4,8,12,16,24,32,40,48),labels=c(0,4,8,12,16,24,32,40,48),cex=1.5))
+with(data=germ,axis(1,at=c(0,4,8,12,16,24,32,40,48),labels=c(0,4,8,12,16,24,32,40,48),cex=2))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=2,cex.lab=1.5,xaxt="n"))
+with(data=germ,axis(1,at=c(0,4,8,12,16,24,32,40,48),labels=c(0,4,8,12,16,24,32,40,48),cex.axis=2))
+with(data=germ,axis(1,at=c(0,4,8,12,16,24,32,40,48),labels=c(0,4,8,12,16,24,32,40,48),cex.axis=1.5))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=2,cex.lab=1.5,xaxt="n"))
+with(data=germ,axis(1,at=c(0,4,8,12,16,24,32,40,48),labels=c(0,4,8,12,16,24,32,40,48),cex.axis=1.5))
+svg()
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lwd=2,cex.axis=1.5,las=2,cex.lab=1.5,xaxt="n"))
+with(data=germ,axis(1,at=c(0,4,8,12,16,24,32,40,48),labels=c(0,4,8,12,16,24,32,40,48),cex.axis=1.5))
+dev.off()
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lty=2,lwd=2,cex.axis=1.5,las=2,cex.lab=1.5,xaxt="n"))
+with(germ,errbar(temps,germ,germ+sd,germ-sd)
+)
+with(germ,errbar(temps,germ,germ+sd,germ-sd))
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lty=2,lwd=2,cex.axis=1.5,las=2,cex.lab=1.5,xaxt="n"))
+errbar(temps,germ,germ+sd,germ-sd)
+germ
+errbar(x=c(0,4,8,12,16,24,32,40,48),y=germ$germ,germ$germ+germ$sd,germ$germ-germ$sd)
+with(data=germ,plot(temps,germ,xlab="Time after imbibition (h)",ylab="Germination (%)",type="o",lty=2,lwd=2,cex.axis=1.5,las=2,cex.lab=1.5,xaxt="n"))
+ls()
+predict(fit2)
+summary(fit2)
+?sqrt
+fit3
+fit2
+?lm
