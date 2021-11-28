@@ -1,0 +1,110 @@
+﻿MSU7_id,protein,MSU7_annotation,variance,t_test,log2ratio_A24vsA0
+LOC_Os05g26750,LOC_Os05g26750.1,"PROLM17 - Prolamin precursor, expressed",hetero,0.04,-1.65
+LOC_Os03g06360,LOC_Os03g06360.1,"late embryogenesis abundant protein D-34, putative, expressed",homo,0.04,-1.48
+LOC_Os01g16920,LOC_Os01g16920.1,"embryonic protein DC-8, putative, expressed",homo,0.03,-1.48
+LOC_Os06g23350,LOC_Os06g23350.1,"late embryogenesis abundant protein D-34, putative, expressed",homo,0.03,-1.32
+LOC_Os08g03520,LOC_Os08g03520.1,"retrotransposon protein, putative, Ty1-copia subclass, expressed",homo,0.03,-1.26
+LOC_Os05g35460,LOC_Os05g35460.1,"patellin protein, putative, expressed",homo,0.00,-1.18
+LOC_Os04g44560,LOC_Os04g44560.1,expressed protein,homo,0.01,-1.10
+LOC_Os01g12580,LOC_Os01g12580.1,"late embryogenesis abundant protein, putative, expressed",homo,0.00,-1.07
+LOC_Os01g61920,LOC_Os01g61920.1,"Core histone H2A/H2B/H3/H4 domain containing protein, putative, expressed",homo,0.03,-1.02
+LOC_Os03g12230,LOC_Os03g12230.1,"caleosin related protein, putative, expressed",homo,0.04,-0.98
+LOC_Os12g08170,LOC_Os12g08170.1,"2-oxo acid dehydrogenases acyltransferase domain containing protein, expressed",homo,0.04,-0.92
+LOC_Os01g59740,LOC_Os01g59740.1,expressed protein,homo,0.03,-0.91
+LOC_Os03g19890,LOC_Os03g19890.1,"NADH dehydrogenase 1 alpha subcomplex subunit 5, putative, expressed",homo,0.01,-0.91
+LOC_Os07g04240,LOC_Os07g04240.1,"succinate dehydrogenase flavoprotein subunit,mitochondrial precursor, putative, expressed",homo,0.00,-0.89
+LOC_Os12g30540,LOC_Os12g30540.1,"ubiquitin carboxyl-terminal hydrolase, putative, expressed",homo,0.00,-0.88
+LOC_Os06g15990,LOC_Os06g15990.1,"aldehyde dehydrogenase, putative, expressed",homo,0.01,-0.87
+LOC_Os02g44520,LOC_Os02g44520.1,"OsSub19 - Putative Subtilisin homologue, expressed",homo,0.00,-0.87
+LOC_Os03g18220,LOC_Os03g18220.1,"pyruvate decarboxylase isozyme 2, putative, expressed",homo,0.03,-0.86
+LOC_Os05g23740,LOC_Os05g23740.1,"DnaK family protein, putative, expressed",homo,0.03,-0.86
+LOC_Os03g48740,LOC_Os03g48740.1,"indole-3-acetate beta-glucosyltransferase, putative, expressed",homo,0.03,-0.84
+LOC_Os03g59050,LOC_Os03g59050.1,"DEAD-box ATP-dependent RNA helicase, putative, expressed",homo,0.02,-0.82
+LOC_Os08g03410,LOC_Os08g03410.1,"glutelin, putative, expressed",homo,0.01,-0.82
+LOC_Os01g07810,LOC_Os01g07810.1,"protein of unknown function domain containing protein, expressed",homo,0.02,-0.81
+LOC_Os05g48510,LOC_Os05g48510.1,"phenylalanyl-tRNA synthetase beta chain, putative, expressed",homo,0.03,-0.78
+LOC_Os03g50480,LOC_Os03g50480.1,"phosphoglucomutase, putative, expressed",homo,0.04,-0.78
+LOC_Os02g10260,LOC_Os02g10260.1,"outer membrane protein, OMP85 family protein, expressed",homo,0.05,-0.76
+LOC_Os04g52110,LOC_Os04g52110.1,"late embryogenesis abundant protein, group 3, putative, expressed",homo,0.01,-0.75
+LOC_Os12g38900,LOC_Os12g38900.1,"chorismate mutase, chloroplast precursor, putative, expressed",homo,0.02,-0.74
+LOC_Os08g42560,LOC_Os08g42560.1,"tRNA synthetase class II core domain containing protein, expressed",homo,0.04,-0.73
+LOC_Os09g08910,LOC_Os09g08910.1,"ATP synthase, putative, expressed",homo,0.03,-0.70
+LOC_Os03g16440,LOC_Os03g16440.1,"outer membrane protein, OMP85 family, putative, expressed",homo,0.02,-0.70
+LOC_Os04g46200,LOC_Os04g46200.1,"oleosin, putative, expressed",homo,0.03,-0.70
+LOC_Os11g34350,LOC_Os11g34350.1,"ATP-binding cassette sub-family E member 1, putative, expressed",homo,0.01,-0.69
+LOC_Os01g65380,LOC_Os01g65380.1,"patellin protein, putative, expressed",homo,0.03,-0.69
+LOC_Os09g07510,LOC_Os09g07510.1,"HEAT repeat family protein, putative, expressed",homo,0.03,-0.69
+LOC_Os09g27420,LOC_Os09g27420.1,"formate--tetrahydrofolate ligase, putative, expressed",homo,0.04,-0.68
+LOC_Os02g53420,LOC_Os02g53420.1,"DnaK family protein, putative, expressed",homo,0.04,-0.68
+LOC_Os11g38670,LOC_Os11g38670.1,"DEAD-box ATP-dependent RNA helicase, putative, expressed",homo,0.00,-0.67
+LOC_Os02g54340,LOC_Os02g54340.1,"26S protease regulatory subunit 7, putative, expressed",homo,0.02,-0.67
+LOC_Os04g32650,LOC_Os04g32650.1,"tRNA synthetase class II core domain containing protein, expressed",homo,0.03,-0.67
+LOC_Os07g46370,LOC_Os07g46370.1,"WD domain, G-beta repeat domain containing protein, expressed",homo,0.03,-0.67
+LOC_Os09g02700,LOC_Os09g02700.1,"polyadenylate-binding protein, putative, expressed",homo,0.01,-0.67
+LOC_Os04g36700,LOC_Os04g36700.1,"proteasome subunit, putative, expressed",homo,0.03,-0.66
+LOC_Os04g55720,LOC_Os04g55720.1,"D-3-phosphoglycerate dehydrogenase, chloroplast precursor, putative, expressed",homo,0.03,-0.66
+LOC_Os02g01010,LOC_Os02g01010.1,"OsPDIL1-4  protein disulfide isomerase PDIL1-4, expressed",homo,0.02,-0.66
+LOC_Os01g57450,LOC_Os01g57450.1,"universal stress protein domain containing protein, putative, expressed",homo,0.02,-0.64
+LOC_Os05g34310,LOC_Os05g34310.1,"no apical meristem protein, putative, expressed",homo,0.04,-0.64
+LOC_Os02g46130,LOC_Os02g46130.1,"tRNA synthetases class II domain containing protein, expressed",homo,0.00,-0.63
+LOC_Os03g08450,LOC_Os03g08450.1,"eukaryotic translation initiation factor 3 subunit K, putative, expressed",homo,0.03,-0.63
+LOC_Os04g38900,LOC_Os04g38900.1,"prohibitin, putative, expressed",homo,0.01,-0.62
+LOC_Os02g37862,LOC_Os02g37862.1,"60S ribosomal protein L6, putative, expressed",homo,0.05,-0.62
+LOC_Os01g08350,LOC_Os01g08350.1,"ATP synthase subunit alpha, mitochondrial, putative, expressed",homo,0.02,-0.62
+LOC_Os04g58580,LOC_Os04g58580.1,"phosphomannomutase, putative, expressed",homo,0.02,-0.61
+LOC_Os01g69080,LOC_Os01g69080.1,"acyl-desaturase, chloroplast precursor, putative, expressed",homo,0.05,-0.61
+LOC_Os02g15250,LOC_Os02g15250.1,"late embryogenesis abundant domain-containing protein, putative, expressed",homo,0.01,-0.61
+LOC_Os03g31750,LOC_Os03g31750.1,"pyruvate, phosphate dikinase, chloroplast precursor, putative, expressed",homo,0.04,-0.61
+LOC_Os11g14950,LOC_Os11g14950.1,"ACT domain containing protein, expressed",homo,0.00,-0.60
+LOC_Os04g32330,LOC_Os04g32330.1,"dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial precursor, putative, expressed",homo,0.05,-0.60
+LOC_Os04g56580,LOC_Os04g56580.1,"inositol 1,3,4,5,6-pentakisphosphate 2-kinase, putative, expressed",homo,0.04,-0.60
+LOC_Os01g34700,LOC_Os01g34700.1,"dienelactone hydrolase family protein, expressed",homo,0.02,-0.59
+LOC_Os03g06220,LOC_Os03g06220.1,"DEAD-box ATP-dependent RNA helicase, putative, expressed",homo,0.01,-0.59
+LOC_Os05g45950,LOC_Os05g45950.1,"outer mitochondrial membrane porin, putative, expressed",homo,0.01,-0.58
+LOC_Os03g10110,LOC_Os03g10110.1,"cupin domain containing protein, expressed",homo,0.00,-0.58
+LOC_Os05g05470,LOC_Os05g05470.1,"T-complex protein, putative, expressed",homo,0.01,-0.57
+LOC_Os02g55140,LOC_Os02g55140.1,"leucine aminopeptidase, chloroplast precursor, putative, expressed",homo,0.04,-0.57
+LOC_Os01g54030,LOC_Os01g54030.1,"NADP-dependent malic enzyme, putative, expressed",homo,0.05,-0.57
+LOC_Os03g29240,LOC_Os03g29240.1,"PDI, putative, expressed",homo,0.01,-0.56
+LOC_Os01g46380,LOC_Os01g46380.1,"ketol-acid reductoisomerase, chloroplast precursor, putative, expressed",homo,0.03,-0.56
+LOC_Os05g26720,LOC_Os05g26720.1,"PROLM16 - Prolamin precursor, expressed",homo,0.03,-0.56
+LOC_Os07g43390,LOC_Os07g43390.1,"4-alpha-glucanotransferase, chloroplast precursor, putative, expressed",homo,0.00,-0.56
+LOC_Os03g57960,LOC_Os03g57960.1,"cupin domain containing protein, expressed",homo,0.00,-0.55
+LOC_Os01g08200,LOC_Os01g08200.1,"ubiquitin carboxyl-terminal hydrolase 14, putative, expressed",homo,0.02,-0.54
+LOC_Os02g02410,LOC_Os02g02410.1,"DnaK family protein, putative, expressed",homo,0.02,-0.54
+LOC_Os09g33986,LOC_Os09g33986.1,"peptidase, T1 family, putative, expressed",homo,0.05,-0.54
+LOC_Os06g22060,LOC_Os06g22060.1,"pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit alpha, putative, expressed",homo,0.05,-0.53
+LOC_Os04g35180,LOC_Os04g35180.1,"co-chaperone GrpE protein, putative, expressed",homo,0.04,-0.53
+LOC_Os07g28480,LOC_Os07g28480.1,"glutathione S-transferase, putative, expressed",homo,0.04,-0.52
+LOC_Os12g13320,LOC_Os12g13320.1,"argininosuccinate synthase, chloroplast precursor, putative, expressed",homo,0.00,-0.51
+LOC_Os06g48750,LOC_Os06g48750.1,"DEAD-box ATP-dependent RNA helicase, putative, expressed",homo,0.02,-0.51
+LOC_Os02g42290,LOC_Os02g42290.1,"OsClp3 - Putative Clp protease homologue, expressed",homo,0.04,-0.51
+LOC_Os10g25130,LOC_Os10g25130.1,"aminotransferase, classes I and II, domain containing protein, expressed",homo,0.00,-0.50
+LOC_Os09g27830,LOC_Os09g27830.1,"OsPDIL2-3  protein disulfide isomerase PDIL2-3, expressed",homo,0.04,-0.49
+LOC_Os08g25734,LOC_Os08g25734.2,"glucose-1-phosphate adenylyltransferase large subunit, chloroplast precursor, putative, expressed",homo,0.01,-0.48
+LOC_Os04g20220,LOC_Os04g20220.1,"elongation factor Tu, putative, expressed",homo,0.05,-0.47
+LOC_Os12g41500,LOC_Os12g41500.1,"rhodanese-like domain containing protein, putative, expressed",homo,0.03,-0.47
+LOC_Os06g27910,LOC_Os06g27910.1,"oleosin, putative, expressed",homo,0.04,-0.47
+LOC_Os06g01500,LOC_Os06g01500.1,"IQ calmodulin-binding motif family protein, putative, expressed",homo,0.03,-0.46
+LOC_Os09g38030,LOC_Os09g38030.1,"UTP--glucose-1-phosphate uridylyltransferase, putative, expressed",homo,0.02,-0.45
+LOC_Os03g21790,LOC_Os03g21790.1,"cupin domain containing protein, expressed",homo,0.03,-0.41
+LOC_Os04g01590,LOC_Os04g01590.1,"arginase, putative, expressed",homo,0.02,-0.40
+LOC_Os10g08550,LOC_Os10g08550.1,"enolase, putative, expressed",homo,0.02,-0.38
+LOC_Os03g46100,LOC_Os03g46100.1,"cupin domain containing protein, expressed",homo,0.03,-0.36
+LOC_Os04g46960,LOC_Os04g46960.1,"glutathione peroxidase domain containing protein, expressed",homo,0.04,-0.35
+LOC_Os01g49190,LOC_Os01g49190.1,"ATP synthase, putative, expressed",homo,0.05,-0.30
+LOC_Os01g03070,LOC_Os01g03070.1,"transposon protein, putative, unclassified, expressed",dry_specific,NA,-2.00
+LOC_Os01g18210,LOC_Os01g18210.1,"peptidyl-prolyl cis-trans isomerase, putative, expressed",dry_specific,NA,-2.00
+LOC_Os02g06410,LOC_Os02g06410.1,"CBS domain containing membrane protein, putative, expressed",dry_specific,NA,-2.00
+LOC_Os02g38200,LOC_Os02g38200.1,"dehydrogenase, putative, expressed",dry_specific,NA,-2.00
+LOC_Os03g53230,LOC_Os03g53230.1,"bifunctional 3-phosphoadenosine 5-phosphosulfate synthetase, putative, expressed",dry_specific,NA,-2.00
+LOC_Os05g06750,LOC_Os05g06750.1,"dihydrolipoyl dehydrogenase, mitochondrial precursor, putative, expressed",dry_specific,NA,-2.00
+LOC_Os05g38150,LOC_Os05g38150.1,"amino acid kinase, putative, expressed",dry_specific,NA,-2.00
+LOC_Os06g01390,LOC_Os06g01390.1,"acyl-coenzyme A oxidase 1.2, peroxisomal, putative, expressed",dry_specific,NA,-2.00
+LOC_Os07g30170,LOC_Os07g30170.1,"nitrilase, putative, expressed",dry_specific,NA,-2.00
+LOC_Os07g31540,LOC_Os07g31540.1,"ubiquitin family protein, putative, expressed",dry_specific,NA,-2.00
+LOC_Os08g18110,LOC_Os08g18110.1,"alpha-soluble NSF attachment protein, putative, expressed",dry_specific,NA,-2.00
+LOC_Os08g23810,LOC_Os08g23810.1,"enoyl-acyl-carrier-protein reductase NADH, chloroplast precursor, expressed",dry_specific,NA,-2.00
+LOC_Os08g40250,LOC_Os08g40250.1,expressed protein,dry_specific,NA,-2.00
+LOC_Os12g05210,LOC_Os12g05210.1,expressed protein,dry_specific,NA,-2.00
+LOC_Os12g13390,LOC_Os12g13390.1,"aspartyl aminopeptidase, putative, expressed",dry_specific,NA,-2.00

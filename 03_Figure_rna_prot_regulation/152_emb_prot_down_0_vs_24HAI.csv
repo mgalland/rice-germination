@@ -1,0 +1,153 @@
+﻿MSU7_id,protein,MSU7_annotation,t_test,log2ratio_E24vsE0
+LOC_Os08g03410,LOC_Os08g03410.1,"glutelin, putative, expressed",0,-4.94
+LOC_Os04g17100,LOC_Os04g17100.1,"heavy metal-associated domain containing protein, expressed",0,-3.82
+LOC_Os11g32890,LOC_Os11g32890.1,expressed protein,0,-3.74
+LOC_Os07g48030,LOC_Os07g48030.1,"peroxidase precursor, putative, expressed",0.01,-3.54
+LOC_Os05g15770,LOC_Os05g15770.1,"glycosyl hydrolase, putative, expressed",0.02,-3.2
+LOC_Os01g12580,LOC_Os01g12580.1,"late embryogenesis abundant protein, putative, expressed",0,-3.17
+LOC_Os01g12660,LOC_Os01g12660.1,"AAA-type ATPase family protein, putative, expressed",0,-3.01
+LOC_Os03g06360,LOC_Os03g06360.1,"late embryogenesis abundant protein D-34, putative, expressed",0.01,-2.9
+LOC_Os02g04780,LOC_Os02g04780.1,expressed protein,0.01,-2.73
+LOC_Os01g02120,LOC_Os01g02120.1,"osMFT2  MFT-Like2 homologous to Mother of FT and TFL1  gene; contains Pfam profile PF01161: Phosphatidylethanolamine-binding protein, expressed",0.02,-2.69
+LOC_Os03g06180,LOC_Os03g06180.1,expressed protein,0.02,-2.49
+LOC_Os04g40540,LOC_Os04g40540.1,"protein-L-isoaspartate O-methyltransferase, putative, expressed",0.03,-2.48
+LOC_Os01g09570,LOC_Os01g09570.1,"6-phosphofructokinase, putative, expressed",0,-2.47
+LOC_Os11g06750,LOC_Os11g06750.1,"ribosomal protein L3, putative, expressed",0.04,-2.43
+LOC_Os05g23620,LOC_Os05g23620.1,"cytochrome c1-1, heme protein, mitochondrial precursor, putative, expressed",0.01,-2.39
+LOC_Os03g11050,LOC_Os03g11050.1,"mannose-1-phosphate guanyltransferase, putative, expressed",0.01,-2.34
+LOC_Os12g05210,LOC_Os12g05210.1,expressed protein,0.02,-2.17
+LOC_Os04g28420,LOC_Os04g28420.1,"peptidyl-prolyl isomerase, putative, expressed",0.04,-2.15
+LOC_Os01g57450,LOC_Os01g57450.1,"universal stress protein domain containing protein, putative, expressed",0,-2.15
+LOC_Os07g22600,LOC_Os07g22600.1,"spermidine synthase, putative, expressed",0,-2.09
+LOC_Os01g03680,LOC_Os01g03680.1,"BBTI8 - Bowman-Birk type bran trypsin inhibitor precursor, expressed",0.03,-2.01
+LOC_Os05g34150,LOC_Os05g34150.1,"glutathione S-transferase, putative, expressed",0.04,-1.97
+LOC_Os02g08490,LOC_Os02g08490.1,"chaperone protein clpB 1, putative, expressed",0.01,-1.96
+LOC_Os02g06410,LOC_Os02g06410.1,"CBS domain containing membrane protein, putative, expressed",0,-1.92
+LOC_Os01g16920,LOC_Os01g16920.1,"embryonic protein DC-8, putative, expressed",0.01,-1.88
+LOC_Os04g36750,LOC_Os04g36750.1,"hsp20/alpha crystallin family protein, putative, expressed",0.01,-1.88
+LOC_Os05g51670,LOC_Os05g51670.1,"NAD dependent epimerase/dehydratase family protein, putative, expressed",0.01,-1.82
+LOC_Os02g40514,LOC_Os02g40514.1,"h/ACA ribonucleoprotein complex subunit 3, putative, expressed",0.02,-1.69
+LOC_Os08g01370,LOC_Os08g01370.1,expressed protein,0.04,-1.68
+LOC_Os03g53620,LOC_Os03g53620.1,"late embryogenesis abundant protein D-34, putative, expressed",0.04,-1.68
+LOC_Os04g05010,LOC_Os04g05010.1,"CBS domain containing membrane protein, putative, expressed",0.03,-1.66
+LOC_Os11g40530,LOC_Os11g40530.1,"LTPL162 - Protease inhibitor/seed storage/LTP family protein precursor, expressed",0,-1.65
+LOC_Os09g08280,LOC_Os09g08280.1,expressed protein,0,-1.6
+LOC_Os06g07160,LOC_Os06g07160.1,expressed protein,0.01,-1.54
+LOC_Os03g53670,LOC_Os03g53670.1,"YT521-B-like family domain containing protein, expressed",0.01,-1.51
+LOC_Os05g39250,LOC_Os05g39250.1,"phosphatidylethanolamine-binding protein, putative, expressed",0.01,-1.5
+LOC_Os11g37270,LOC_Os11g37270.1,"AMBP1 - Antimicrobial peptide MBP-1 family protein precursor, expressed",0.04,-1.5
+LOC_Os01g69080,LOC_Os01g69080.1,"acyl-desaturase, chloroplast precursor, putative, expressed",0.01,-1.43
+LOC_Os03g04169,LOC_Os03g04169.1,"ATP phosphoribosyltransferase, putative, expressed",0.02,-1.39
+LOC_Os03g01190,LOC_Os03g01190.1,"dehydrogenase, putative, expressed",0.02,-1.38
+LOC_Os03g57960,LOC_Os03g57960.1,"cupin domain containing protein, expressed",0,-1.35
+LOC_Os12g16410,LOC_Os12g16410.1,"isoflavone reductase, putative, expressed",0.04,-1.35
+LOC_Os12g41500,LOC_Os12g41500.1,"rhodanese-like domain containing protein, putative, expressed",0.02,-1.32
+LOC_Os02g51710,LOC_Os02g51710.1,"wound/stress protein, putative, expressed",0.01,-1.32
+LOC_Os06g23350,LOC_Os06g23350.1,"late embryogenesis abundant protein D-34, putative, expressed",0.01,-1.31
+LOC_Os10g09850,LOC_Os10g09850.1,"EF hand family protein, putative, expressed",0,-1.29
+LOC_Os10g36180,LOC_Os10g36180.1,expressed protein,0.01,-1.26
+LOC_Os06g11180,LOC_Os06g11180.1,"OsPOP12 - Putative Prolyl Oligopeptidase homologue, expressed",0.05,-1.24
+LOC_Os02g29400,LOC_Os02g29400.1,expressed protein,0.01,-1.23
+LOC_Os06g39712,LOC_Os06g39712.1,"OsClp10 - Putative Clp protease homologue, expressed",0.04,-1.22
+LOC_Os03g49350,LOC_Os03g49350.1,"lipozygenase protein, putative, expressed",0.02,-1.17
+LOC_Os08g05830,LOC_Os08g05830.1,"transaldolase, putative, expressed",0.01,-1.16
+LOC_Os04g56620,LOC_Os04g56620.1,"molybdopterin biosynthesis protein CNX1, putative, expressed",0.05,-1.16
+LOC_Os03g11910,LOC_Os03g11910.1,"DnaK family protein, putative, expressed",0.04,-1.16
+LOC_Os03g45320,LOC_Os03g45320.1,"dehydrogenase, putative, expressed",0.03,-1.14
+LOC_Os03g62590,LOC_Os03g62590.1,"oxidoreductase, short chain dehydrogenase/reductase family domain containing protein, expressed",0,-1.12
+LOC_Os11g02400,LOC_Os11g02400.1,"LTPL8 - Protease inhibitor/seed storage/LTP family protein precursor, expressed",0,-1.11
+LOC_Os02g48660,LOC_Os02g48660.1,"60S ribosomal protein L31, putative, expressed",0.05,-1.1
+LOC_Os01g16870,LOC_Os01g16870.1,"argonaute, putative, expressed",0.01,-1.09
+LOC_Os04g35490,LOC_Os04g35490.1,expressed protein,0.01,-1.09
+LOC_Os03g02260,LOC_Os03g02260.1,"DnaK family protein, putative, expressed",0.03,-1.08
+LOC_Os04g27860,LOC_Os04g27860.1,"40S ribosomal protein S27, putative, expressed",0.01,-1.08
+LOC_Os12g41390,LOC_Os12g41390.1,"homocysteine S-methyltransferase protein, putative, expressed",0.01,-1.07
+LOC_Os02g52290,LOC_Os02g52290.1,"peptidyl-prolyl cis-trans isomerase, FKBP-type, putative, expressed",0.01,-1.07
+LOC_Os04g01740,LOC_Os04g01740.1,"heat shock protein, putative, expressed",0.03,-1.07
+LOC_Os03g07800,LOC_Os03g07800.1,"RNA recognition motif containing protein, putative, expressed",0.02,-1.05
+LOC_Os08g06550,LOC_Os08g06550.1,"acyl CoA binding protein, putative, expressed",0.02,-1.04
+LOC_Os09g27420,LOC_Os09g27420.1,"formate--tetrahydrofolate ligase, putative, expressed",0.03,-1.04
+LOC_Os06g08280,LOC_Os06g08280.1,"protein kinase domain containing protein, expressed",0.03,-1.04
+LOC_Os05g44340,LOC_Os05g44340.1,"heat shock protein 101, putative, expressed",0.05,-1.02
+LOC_Os03g59710,LOC_Os03g59710.1,"RNA recognition motif containing protein, putative, expressed",0.02,-0.99
+LOC_Os02g30310,LOC_Os02g30310.1,"ThiF family domain containing protein, putative, expressed",0.01,-0.99
+LOC_Os03g46100,LOC_Os03g46100.1,"cupin domain containing protein, expressed",0.01,-0.98
+LOC_Os02g10310,LOC_Os02g10310.2,"fumarylacetoacetase, putative, expressed",0.01,-0.98
+LOC_Os10g19880,LOC_Os10g19880.1,"alpha-1,2-fucosidase, putative, expressed",0.02,-0.98
+LOC_Os02g13990,LOC_Os02g13990.1,"U2 small nuclear ribonucleoprotein A, putative, expressed",0.03,-0.98
+LOC_Os08g03290,LOC_Os08g03290.1,"glyceraldehyde-3-phosphate dehydrogenase, putative, expressed",0.04,-0.96
+LOC_Os05g42230,LOC_Os05g42230.1,"universal stress protein domain containing protein, putative, expressed",0.04,-0.94
+LOC_Os10g28020,LOC_Os10g28020.3,"OsPOP21 - Putative Prolyl Oligopeptidase homologue, expressed",0.04,-0.94
+LOC_Os05g48510,LOC_Os05g48510.1,"phenylalanyl-tRNA synthetase beta chain, putative, expressed",0.02,-0.93
+LOC_Os08g36900,LOC_Os08g36900.1,"alpha-amylase precursor, putative, expressed",0.01,-0.93
+LOC_Os11g03780,LOC_Os11g03780.1,"alpha-N-arabinofuranosidase, putative, expressed",0.02,-0.93
+LOC_Os12g33020,LOC_Os12g33020.1,"mitochondrial import inner membrane translocase subunit Tim17, putative, expressed",0.02,-0.9
+LOC_Os01g54030,LOC_Os01g54030.1,"NADP-dependent malic enzyme, putative, expressed",0.02,-0.88
+LOC_Os02g11050,LOC_Os02g11050.1,"26S protease regulatory subunit, putative, expressed",0.04,-0.88
+LOC_Os12g43630,LOC_Os12g43630.1,"lactate/malate dehydrogenase, putative, expressed",0.05,-0.88
+LOC_Os01g02880,LOC_Os01g02880.1,"fructose-bisphospate aldolase isozyme, putative, expressed",0.03,-0.85
+LOC_Os11g06880,LOC_Os11g06880.1,"acyl-CoA synthetase, putative, expressed",0.01,-0.84
+LOC_Os04g36859,LOC_Os04g36859.1,"signal peptidase complex subunit 2, putative, expressed",0.01,-0.82
+LOC_Os05g19970,LOC_Os05g19970.1,"ZOS5-06 - C2H2 zinc finger protein, expressed",0.01,-0.8
+LOC_Os02g10070,LOC_Os02g10070.1,"citrate synthase, putative, expressed",0.05,-0.8
+LOC_Os02g51620,LOC_Os02g51620.1,"glycosyl hydrolase family 3 protein, putative, expressed",0.04,-0.8
+LOC_Os11g24510,LOC_Os11g24510.1,"OsSCP56 - Putative Serine Carboxypeptidase homologue, expressed",0,-0.79
+LOC_Os06g14740,LOC_Os06g14740.1,"NAD binding domain of 6-phosphogluconate dehydrogenase containing protein, expressed",0.04,-0.79
+LOC_Os01g02720,LOC_Os01g02720.1,"elongation factor Tu, putative, expressed",0.01,-0.78
+LOC_Os05g11550,LOC_Os05g11550.1,"serine/threonine protein phosphatase 5, putative, expressed",0.03,-0.78
+LOC_Os06g06560,LOC_Os06g06560.1,"starch synthase, putative, expressed",0.03,-0.76
+LOC_Os03g46770,LOC_Os03g46770.1,"RNA recognition motif containing protein, expressed",0,-0.73
+LOC_Os01g05470,LOC_Os01g05470.1,"transcription factor X1, putative, expressed",0.05,-0.72
+LOC_Os07g38270,LOC_Os07g38270.1,"insulin-degrading enzyme, putative, expressed",0.05,-0.72
+LOC_Os05g48340,LOC_Os05g48340.1,"proteasome-related, putative, expressed",0.02,-0.67
+LOC_Os05g25310,LOC_Os05g25310.1,"acyl-CoA synthetase protein, putative, expressed",0.05,-0.6
+LOC_Os02g15250,LOC_Os02g15250.1,"late embryogenesis abundant domain-containing protein, putative, expressed",0.04,-0.59
+LOC_Os03g03770,LOC_Os03g03770.1,expressed protein,0.05,-0.58
+LOC_Os08g06200,LOC_Os08g06200.1,"stomatin-like protein 2, putative, expressed",0.03,-0.5
+LOC_Os07g36600,LOC_Os07g36600.1,"universal stress protein domain containing protein, putative, expressed",0.02,-0.47
+LOC_Os06g07220,LOC_Os06g07220.1,"LTPL128 - Protease inhibitor/seed storage/LTP family protein precursor, expressed",0.03,-0.33
+LOC_Os03g09210,LOC_Os03g09210.1,"NADH dehydrogenase 1 alpha subcomplex subunit 13, putative, expressed",0.02,-0.3
+LOC_Os04g56646,LOC_Os04g56646.1,"MEE34, putative, expressed",0.04,-0.28
+LOC_Os01g16910,LOC_Os01g16910.1,"outer mitochondrial membrane porin, putative, expressed",0.01,-0.26
+LOC_Os01g07370,LOC_Os01g07370.1,"KIP1, putative, expressed",NA,-5
+LOC_Os01g13420,LOC_Os01g13420.1,"SOUL heme-binding protein, putative, expressed",NA,-5
+LOC_Os01g61670,LOC_Os01g61670.3,"ureidoglycolate hydrolase, putative, expressed",NA,-5
+LOC_Os01g74580,LOC_Os01g74580.1,"dnaJ homolog subfamily C member, putative, expressed",NA,-5
+LOC_Os02g05880,LOC_Os02g05880.1,"RNA polymerase Rpb1, domain 2 family protein, expressed",NA,-5
+LOC_Os02g17640,LOC_Os02g17640.1,"isochorismatase family protein, putative, expressed",NA,-5
+LOC_Os02g42700,LOC_Os02g42700.1,"thioredoxin, putative, expressed",NA,-5
+LOC_Os02g55130,LOC_Os02g55130.1,"OsSCP10 - Putative Serine Carboxypeptidase homologue, expressed",NA,-5
+LOC_Os03g04080,LOC_Os03g04080.1,expressed protein,NA,-5
+LOC_Os03g11570,LOC_Os03g11570.1,"proteasome subunit, putative, expressed",NA,-5
+LOC_Os03g13840,LOC_Os03g13840.1,"senescence-associated protein, putative, expressed",NA,-5
+LOC_Os03g20750,LOC_Os03g20750.1,"outer mitochondrial membrane porin, putative, expressed",NA,-5
+LOC_Os03g21260,LOC_Os03g21260.1,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase, putative, expressed",NA,-5
+LOC_Os03g46390,LOC_Os03g46390.1,"ras-related protein, putative, expressed",NA,-5
+LOC_Os04g52540,LOC_Os04g52540.1,"retrotransposon protein, putative, unclassified, expressed",NA,-5
+LOC_Os04g59460,LOC_Os04g59460.1,expressed protein,NA,-5
+LOC_Os05g05860,LOC_Os05g05860.1,"retrotransposon protein, putative, unclassified, expressed",NA,-5
+LOC_Os05g15880,LOC_Os05g15880.1,"glycosyl hydrolase, putative, expressed",NA,-5
+LOC_Os05g16660,LOC_Os05g16660.1,"WD domain, G-beta repeat domain containing protein, expressed",NA,-5
+LOC_Os05g31140,LOC_Os05g31140.1,"glycosyl hydrolases family 17, putative, expressed",NA,-5
+LOC_Os05g39650,LOC_Os05g39650.1,"phytanoyl-CoA dioxygenase, putative, expressed",NA,-5
+LOC_Os06g21480,LOC_Os06g21480.1,"60S ribosomal protein L31, putative, expressed",NA,-5
+LOC_Os06g33520,LOC_Os06g33520.1,"DEAD/DEAH box helicase, putative, expressed",NA,-5
+LOC_Os06g33710,LOC_Os06g33710.1,"spermidine synthase, putative, expressed",NA,-5
+LOC_Os06g50330,LOC_Os06g50330.1,"senescence-associated protein, putative, expressed",NA,-5
+LOC_Os06g50890,LOC_Os06g50890.1,"RNA recognition motif containing protein, expressed",NA,-5
+LOC_Os07g34570,LOC_Os07g34570.1,"FAD dependent oxidoreductase domain containing protein, expressed",NA,-5
+LOC_Os07g47780,LOC_Os07g47780.1,"60S ribosomal protein L18-3, putative, expressed",NA,-5
+LOC_Os09g19790,LOC_Os09g19790.1,"puromycin-sensitive aminopeptidase, putative, expressed",NA,-5
+LOC_Os09g30438,LOC_Os09g30438.2,expressed protein,NA,-5
+LOC_Os09g39870,LOC_Os09g39870.1,"2-phosphoglycerate kinase-related, putative, expressed",NA,-5
+LOC_Os10g41560,LOC_Os10g41560.1,expressed protein,NA,-5
+LOC_Os10g42320,LOC_Os10g42320.1,"nonsense-mediated mRNA decay protein 3, putative, expressed",NA,-5
+LOC_Os10g42420,LOC_Os10g42420.1,"GTPase-activating protein, putative, expressed",NA,-5
+LOC_Os11g02424,LOC_Os11g02424.2,"LTPL9 - Protease inhibitor/seed storage/LTP family protein precursor, expressed",NA,-5
+LOC_Os11g13980,LOC_Os11g13980.1,"hsp20/alpha crystallin family protein, putative, expressed",NA,-5
+LOC_Os11g14300,LOC_Os11g14300.1,"la domain containing protein, expressed",NA,-5
+LOC_Os11g42450,LOC_Os11g42450.1,"leucine-rich repeat family protein, putative, expressed",NA,-5
+LOC_Os11g44810,LOC_Os11g44810.1,"auxin-repressed protein, putative, expressed",NA,-5
+LOC_Os12g03710,LOC_Os12g03710.1,"RNA recognition motif containing protein, putative, expressed",NA,-5
+LOC_Os12g36950,LOC_Os12g36950.1,"CTP synthase, putative, expressed",NA,-5
+LOC_Os12g43550,LOC_Os12g43550.2,"ras-related protein, putative, expressed",NA,-5

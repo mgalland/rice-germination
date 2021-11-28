@@ -1,0 +1,266 @@
+﻿MSU7_id,protein,MSU7_annotation,t_test,log2ratio_E24vsE0
+LOC_Os05g24601,LOC_Os05g24601.1,"coatomer subunit delta, putative, expressed",0.02,0.39
+LOC_Os10g34670,LOC_Os10g34670.1,"prefoldin, putative, expressed",0.00,0.4
+LOC_Os02g13840,LOC_Os02g13840.1,"citrate synthase, putative, expressed",0.02,0.4
+LOC_Os06g23440,LOC_Os06g23440.1,"eukaryotic translation initiation factor 1A, putative, expressed",0.03,0.44
+LOC_Os07g36465,LOC_Os07g36465.1,"vacuolar ATP synthase subunit H, putative, expressed",0.04,0.44
+LOC_Os05g06350,LOC_Os05g06350.1,"importin subunit alpha, putative, expressed",0.03,0.47
+LOC_Os01g09510,LOC_Os01g09510.1,"60S acidic ribosomal protein, putative, expressed",0.05,0.47
+LOC_Os05g48290,LOC_Os05g48290.3,"T-complex protein, putative, expressed",0.01,0.48
+LOC_Os09g08910,LOC_Os09g08910.1,"ATP synthase, putative, expressed",0.03,0.48
+LOC_Os03g04710,LOC_Os03g04710.1,expressed protein,0.05,0.48
+LOC_Os06g19640,LOC_Os06g19640.1,"39S ribosomal protein L46, mitochondrial precursor, putative, expressed",0.00,0.5
+LOC_Os01g53930,LOC_Os01g53930.1,"hexokinase, putative, expressed",0.02,0.57
+LOC_Os05g48320,LOC_Os05g48320.1,"60S ribosomal protein L37a, putative, expressed",0.02,0.57
+LOC_Os01g49190,LOC_Os01g49190.1,"ATP synthase, putative, expressed",0.04,0.58
+LOC_Os10g25130,LOC_Os10g25130.1,"aminotransferase, classes I and II, domain containing protein, expressed",0.04,0.59
+LOC_Os06g46000,LOC_Os06g46000.1,"tubulin/FtsZ domain containing protein, putative, expressed",0.04,0.62
+LOC_Os01g18210,LOC_Os01g18210.1,"peptidyl-prolyl cis-trans isomerase, putative, expressed",0.03,0.67
+LOC_Os10g08550,LOC_Os10g08550.1,"enolase, putative, expressed",0.01,0.67
+LOC_Os11g43900,LOC_Os11g43900.1,"translationally-controlled tumor protein, putative, expressed",0.01,0.68
+LOC_Os02g13530,LOC_Os02g13530.1,"40S ribosomal protein S24, putative, expressed",0.01,0.7
+LOC_Os01g60360,LOC_Os01g60360.1,"ubiquitin-conjugating enzyme, putative, expressed",0.05,0.72
+LOC_Os11g05370,LOC_Os11g05370.1,"60S ribosomal protein L26-1, putative, expressed",0.03,0.74
+LOC_Os01g59790,LOC_Os01g59790.1,"ADP-ribosylation factor, putative, expressed",0.05,0.75
+LOC_Os03g50510,LOC_Os03g50510.1,"threonine dehydratase biosynthetic, chloroplast precursor, putative, expressed",0.00,0.76
+LOC_Os04g58110,LOC_Os04g58110.1,"pyruvate kinase, putative, expressed",0.02,0.79
+LOC_Os03g01530,LOC_Os03g01530.1,"tubulin/FtsZ domain containing protein, putative, expressed",0.01,0.81
+LOC_Os03g52860,LOC_Os03g52860.1,"lipoxygenase, putative, expressed",0.01,0.83
+LOC_Os04g09390,LOC_Os04g09390.1,"HEV3 - Hevein family protein precursor, expressed",0.02,0.83
+LOC_Os01g60190,LOC_Os01g60190.1,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase, putative, expressed",0.01,0.84
+LOC_Os04g40400,LOC_Os04g40400.1,"eukaryotic translation initiation factor 4B, putative, expressed",0.04,0.85
+LOC_Os06g37180,LOC_Os06g37180.1,"ATP synthase, putative, expressed",0.02,0.86
+LOC_Os02g07160,LOC_Os02g07160.1,"glyoxalase family protein, putative, expressed",0.05,0.87
+LOC_Os09g29630,LOC_Os09g29630.1,"NOL1/NOP2/sun family protein, putative, expressed",0.04,0.91
+LOC_Os02g55140,LOC_Os02g55140.1,"leucine aminopeptidase, chloroplast precursor, putative, expressed",0.01,0.92
+LOC_Os03g15900,LOC_Os03g15900.2,"SH3 domain containing protein, expressed",0.04,0.92
+LOC_Os10g42940,LOC_Os10g42940.1,"miro, putative, expressed",0.01,0.98
+LOC_Os07g38970,LOC_Os07g38970.1,"succinyl-CoA ligase subunit alpha-2, mitochondrial precursor, putative, expressed",0.04,0.99
+LOC_Os08g25720,LOC_Os08g25720.1,"pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit alpha, putative, expressed",0.00,0.99
+LOC_Os02g40890,LOC_Os02g40890.1,"GLTP domain containing protein, putative, expressed",0.03,0.99
+LOC_Os06g13810,LOC_Os06g13810.1,"pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit beta, putative, expressed",0.03,1
+LOC_Os09g33500,LOC_Os09g33500.1,"transketolase, putative, expressed",0.03,1.01
+LOC_Os03g05980,LOC_Os03g05980.1,"40S ribosomal protein S9-2, putative, expressed",0.04,1.01
+LOC_Os02g01520,LOC_Os02g01520.1,"IQ calmodulin-binding motif family protein, putative, expressed",0.04,1.03
+LOC_Os02g37590,LOC_Os02g37590.1,"glycerophosphoryl diester phosphodiesterase family protein, putative, expressed",0.04,1.03
+LOC_Os10g33230,LOC_Os10g33230.1,"RNA recognition motif containing protein, putative, expressed",0.00,1.04
+LOC_Os05g51530,LOC_Os05g51530.1,"vacuolar ATP synthase subunit C, putative, expressed",0.05,1.04
+LOC_Os07g42450,LOC_Os07g42450.1,"ribosomal protein S2, putative, expressed",0.01,1.05
+LOC_Os01g18050,LOC_Os01g18050.1,"tubulin/FtsZ domain containing protein, putative, expressed",0.01,1.08
+LOC_Os03g01900,LOC_Os03g01900.1,"40S ribosomal protein S17, putative, expressed",0.04,1.08
+LOC_Os03g58840,LOC_Os03g58840.1,"vesicle-associated membrane protein, putative, expressed",0.04,1.09
+LOC_Os04g55060,LOC_Os04g55060.1,"3-oxoacyl-synthase III, chloroplast precursor, putative, expressed",0.04,1.09
+LOC_Os03g55280,LOC_Os03g55280.1,"semialdehyde dehydrogenase, NAD binding domain containing protein, putative, expressed",0.00,1.11
+LOC_Os07g40320,LOC_Os07g40320.1,"vesicle transport protein GOT1B, putative, expressed",0.02,1.13
+LOC_Os01g42520,LOC_Os01g42520.1,expressed protein,0.01,1.14
+LOC_Os03g53860,LOC_Os03g53860.1,"periplasmic beta-glucosidase precursor, putative, expressed",0.02,1.17
+LOC_Os08g34720,LOC_Os08g34720.1,"D-3-phosphoglycerate dehydrogenase, chloroplast precursor, putative, expressed",0.04,1.17
+LOC_Os01g37800,LOC_Os01g37800.1,"ras-related protein, putative, expressed",0.00,1.17
+LOC_Os05g33380,LOC_Os05g33380.1,"fructose-bisphospate aldolase isozyme, putative, expressed",0.02,1.18
+LOC_Os12g41715,LOC_Os12g41715.1,"DEAD-box ATP-dependent RNA helicase, putative, expressed",0.02,1.18
+LOC_Os01g55690,LOC_Os01g55690.1,"glutelin, putative, expressed",0.05,1.21
+LOC_Os08g12820,LOC_Os08g12820.1,"proteasome/cyclosome repeat containing protein, expressed",0.00,1.23
+LOC_Os01g65790,LOC_Os01g65790.1,"pectinesterase, putative, expressed",0.04,1.25
+LOC_Os01g51170,LOC_Os01g51170.1,"glycylpeptide N-tetradecanoyltransferase 1, putative, expressed",0.00,1.28
+LOC_Os01g08450,LOC_Os01g08450.1,"ras-related protein, putative, expressed",0.03,1.28
+LOC_Os01g24710,LOC_Os01g24710.1,"jacalin-like lectin domain containing protein, expressed",0.02,1.31
+LOC_Os03g28160,LOC_Os03g28160.1,"jacalin-like lectin domain containing protein, expressed",0.02,1.32
+LOC_Os05g22970,LOC_Os05g22970.1,"glyoxalase family protein, putative, expressed",0.04,1.34
+LOC_Os06g05660,LOC_Os06g05660.3,"NAP domain containing protein, putative, expressed",0.02,1.35
+LOC_Os07g11630,LOC_Os07g11630.1,"LTPL163 - Protease inhibitor/seed storage/LTP family protein precursor, expressed",0.02,1.35
+LOC_Os05g07890,LOC_Os05g07890.1,"embryo-specific 3, putative, expressed",0.00,1.37
+LOC_Os06g43660,LOC_Os06g43660.1,"inorganic H+ pyrophosphatase, putative, expressed",0.05,1.37
+LOC_Os03g50480,LOC_Os03g50480.2,"phosphoglucomutase, putative, expressed",0.02,1.37
+LOC_Os02g24330,LOC_Os02g24330.1,"eukaryotic translation initiation factor 4B, putative, expressed",0.01,1.38
+LOC_Os03g51600,LOC_Os03g51600.1,"tubulin/FtsZ domain containing protein, putative, expressed",0.00,1.4
+LOC_Os05g33400,LOC_Os05g33400.1,"basic 7S globulin precursor, putative, expressed",0.00,1.43
+LOC_Os02g55890,LOC_Os02g55890.1,"inorganic H+ pyrophosphatase, putative, expressed",0.05,1.44
+LOC_Os02g50830,LOC_Os02g50830.1,expressed protein,0.03,1.46
+LOC_Os06g01390,LOC_Os06g01390.1,"acyl-coenzyme A oxidase 1.2, peroxisomal, putative, expressed",0.03,1.49
+LOC_Os04g40730,LOC_Os04g40730.1,"oxidoreductase, short chain dehydrogenase/reductase family, putative, expressed",0.00,1.56
+LOC_Os01g73790,LOC_Os01g73790.1,"NAD dependent epimerase/dehydratase family protein, putative, expressed",0.00,1.6
+LOC_Os03g02390,LOC_Os03g02390.1,"mitochondrial import inner membrane translocase subunit Tim17, putative, expressed",0.01,1.71
+LOC_Os04g35520,LOC_Os04g35520.1,"OsAPx7 - Stromal Ascorbate Peroxidase encoding gene 5,8, expressed",0.05,1.72
+LOC_Os02g57540,LOC_Os02g57540.1,"60S ribosomal protein L28-1, putative, expressed",0.01,1.73
+LOC_Os04g56160,LOC_Os04g56160.1,"plasma membrane ATPase, putative, expressed",0.04,1.76
+LOC_Os03g63430,LOC_Os03g63430.1,"proteasome subunit, putative, expressed",0.02,1.79
+LOC_Os08g33710,LOC_Os08g33710.1,"ribonuclease T2 family domain containing protein, expressed",0.04,1.8
+LOC_Os09g38550,LOC_Os09g38550.1,"protein phosphatase 2C, putative, expressed",0.04,1.8
+LOC_Os07g01020,LOC_Os07g01020.1,"SOR/SNZ family protein, putative, expressed",0.04,1.82
+LOC_Os01g59150,LOC_Os01g59150.1,"tubulin/FtsZ domain containing protein, putative, expressed",0.04,1.83
+LOC_Os01g24690,LOC_Os01g24690.1,"60S ribosomal protein L23A, putative, expressed",0.02,1.83
+LOC_Os05g35580,LOC_Os05g35580.1,"amidophosphoribosyltransferase, chloroplast precursor, putative, expressed",0.00,1.86
+LOC_Os05g02820,LOC_Os05g02820.1,"protein transport protein-related, putative, expressed",0.02,1.86
+LOC_Os04g52130,LOC_Os04g52130.1,"coproporphyrinogen III oxidase, chloroplast precursor, putative, expressed",0.00,1.86
+LOC_Os02g57640,LOC_Os02g57640.1,"KH domain containing protein, putative, expressed",0.04,1.87
+LOC_Os04g24140,LOC_Os04g24140.1,"ribose-5-phosphate isomerase A, putative, expressed",0.01,1.89
+LOC_Os02g32814,LOC_Os02g32814.1,"heavy metal-associated domain containing protein, expressed",0.01,1.93
+LOC_Os07g11310,LOC_Os07g11310.1,"LTPL166 - Protease inhibitor/seed storage/LTP family protein precursor, expressed",0.01,1.94
+LOC_Os03g53650,LOC_Os03g53650.2,"cysteine synthase, putative, expressed",0.02,1.96
+LOC_Os10g41930,LOC_Os10g41930.1,"haloacid dehalogenase-like hydrolase family protein, putative, expressed",0.01,1.96
+LOC_Os12g36880,LOC_Os12g36880.1,"pathogenesis-related Bet v I family protein, putative, expressed",0.04,1.98
+LOC_Os01g67980,LOC_Os01g67980.1,"cysteine proteinase EP-B 1 precursor, putative, expressed",0.01,2
+LOC_Os03g06240,LOC_Os03g06240.1,"YT521-B-like family domain containing protein, expressed",0.01,2
+LOC_Os01g11240,LOC_Os01g11240.1,"DUF538 domain containing protein, putative, expressed",0.01,2.01
+LOC_Os03g10120,LOC_Os03g10120.2,"proteasome subunit, putative, expressed",0.00,2.11
+LOC_Os05g29990,LOC_Os05g29990.1,"NAD dependent epimerase/dehydratase family domain containing protein, expressed",0.00,2.32
+LOC_Os01g58890,LOC_Os01g58890.1,"cysteine proteinase inhibitor precursor protein, putative, expressed",0.00,2.32
+LOC_Os01g16960,LOC_Os01g16960.1,"pyruvate kinase, putative, expressed",0.01,2.36
+LOC_Os05g41480,LOC_Os05g41480.1,"domain of unknown function, DUF250 domain containing protein, expressed",0.05,2.39
+LOC_Os05g43830,LOC_Os05g43830.2,"hydrolase, alpha/beta fold family domain containing protein, expressed",0.03,2.43
+LOC_Os02g50620,LOC_Os02g50620.1,"dehydrogenase E1 component domain containing protein, expressed",0.00,2.47
+LOC_Os03g55070,LOC_Os03g55070.1,"UDP-glucose 6-dehydrogenase, putative, expressed",0.01,2.58
+LOC_Os07g42490,LOC_Os07g42490.1,"sucrose synthase, putative, expressed",0.01,2.87
+LOC_Os03g16980,LOC_Os03g16980.1,"NAD dependent epimerase/dehydratase family domain containing protein, expressed",0.00,2.92
+LOC_Os07g42950,LOC_Os07g42950.1,"40S ribosomal protein S6, putative, expressed",0.03,3.05
+LOC_Os07g10570,LOC_Os07g10570.1,"PROLM25 - Prolamin precursor, expressed",0.00,3.18
+LOC_Os04g52164,LOC_Os04g52164.1,"transferase family protein, putative, expressed",0.02,3.23
+LOC_Os07g44550,LOC_Os07g44550.1,"peroxidase precursor, putative, expressed",0.01,3.32
+LOC_Os08g02120,LOC_Os08g02120.1,"kinase, pfkB family, putative, expressed",0.03,3.37
+LOC_Os02g41630,LOC_Os02g41630.2,"phenylalanine ammonia-lyase, putative, expressed",0.00,3.37
+LOC_Os02g49720,LOC_Os02g49720.2,"aldehyde dehydrogenase, putative, expressed",0.00,3.55
+LOC_Os10g23100,LOC_Os10g23100.1,"ras-related protein, putative, expressed",0.03,3.79
+LOC_Os08g38900,LOC_Os08g38900.1,"caffeoyl-CoA O-methyltransferase, putative, expressed",0.04,3.84
+LOC_Os02g53790,LOC_Os02g53790.1,"adenylate kinase, putative, expressed",0.03,3.99
+LOC_Os12g36830,LOC_Os12g36830.1,"pathogenesis-related Bet v I family protein, putative, expressed",0.05,4
+LOC_Os01g41610,LOC_Os01g41610.1,"mitochondrial ATP synthase g subunit family protein, putative, expressed",0.04,4.18
+LOC_Os04g55650,LOC_Os04g55650.1,"oryzain alpha chain precursor, putative, expressed",0.02,5.53
+LOC_Os01g01700,LOC_Os01g01700.1,response to stimulus/metabolic process/primary metabolic process,germ_specific,5
+LOC_Os01g06560,LOC_Os01g06560.1,response to abiotic stimulus/response to stimulus,germ_specific,5
+LOC_Os01g09320,LOC_Os01g09320.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os01g16450,LOC_Os01g16450.1,response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os01g22010,LOC_Os01g22010.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stres/primary metabolic processs,germ_specific,5
+LOC_Os01g24030,LOC_Os01g24030.1,metabolic process,germ_specific,5
+LOC_Os01g32790,LOC_Os01g32790.1,#N/A,germ_specific,5
+LOC_Os01g50160,LOC_Os01g50160.1,metabolic process/primary metabolic process/catabolic process,germ_specific,5
+LOC_Os01g55190,LOC_Os01g55190.1,#N/A,germ_specific,5
+LOC_Os01g58870,LOC_Os01g58870.1,#N/A,germ_specific,5
+LOC_Os01g61860,LOC_Os01g61860.1,metabolic process/primary metabolic process/catabolic process,germ_specific,5
+LOC_Os01g65830,LOC_Os01g65830.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os01g66110,LOC_Os01g66110.1,#N/A,germ_specific,5
+LOC_Os02g01960,LOC_Os02g01960.1,#N/A,germ_specific,5
+LOC_Os02g02720,LOC_Os02g02720.1,#N/A,germ_specific,5
+LOC_Os02g04970,LOC_Os02g04970.1,response to stimulus,germ_specific,5
+LOC_Os02g09510,LOC_Os02g09510.1,response to abiotic stimulus/response to stimulus/metabolic process,germ_specific,5
+LOC_Os02g11930,LOC_Os02g11930.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os02g14160,LOC_Os02g14160.1,response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os02g18410,LOC_Os02g18410.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress/primary metabolic process,germ_specific,5
+LOC_Os02g19820,LOC_Os02g19820.1,#N/A,germ_specific,5
+LOC_Os02g22090,LOC_Os02g22090.1,metabolic process,germ_specific,5
+LOC_Os02g30730,LOC_Os02g30730.1,#N/A,germ_specific,5
+LOC_Os02g39920,LOC_Os02g39920.1,#N/A,germ_specific,5
+LOC_Os02g43360,LOC_Os02g43360.1,#N/A,germ_specific,5
+LOC_Os02g52700,LOC_Os02g52700.1,response to stimulus/metabolic process,germ_specific,5
+LOC_Os02g52710,LOC_Os02g52710.1,response to stimulus/metabolic process,germ_specific,5
+LOC_Os02g53860,LOC_Os02g53860.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os02g56270,LOC_Os02g56270.1,#N/A,germ_specific,5
+LOC_Os02g56460,LOC_Os02g56460.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os02g56700,LOC_Os02g56700.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os03g03910,LOC_Os03g03910.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress/catabolic process,germ_specific,5
+LOC_Os03g04770,LOC_Os03g04770.1,response to abiotic stimulus/carbohydrate metabolic process/response to stimulus/metabolic process/response to stress/primary metabolic process/catabolic process,germ_specific,5
+LOC_Os03g12510,LOC_Os03g12510.1,response to stimulus/response to stress,germ_specific,5
+LOC_Os03g13220,LOC_Os03g13220.1,#N/A,germ_specific,5
+LOC_Os03g13540,LOC_Os03g13540.1,metabolic process,germ_specific,5
+LOC_Os03g14000,LOC_Os03g14000.1,#N/A,germ_specific,5
+LOC_Os03g16950,LOC_Os03g16950.1,response to abiotic stimulus/response to stimulus,germ_specific,5
+LOC_Os03g16960,LOC_Os03g16960.1,response to abiotic stimulus/response to stimulus,germ_specific,5
+LOC_Os03g17020,LOC_Os03g17020.1,metabolic process/primary metabolic process/catabolic process,germ_specific,5
+LOC_Os03g17690,LOC_Os03g17690.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress/catabolic process,germ_specific,5
+LOC_Os03g21270,LOC_Os03g21270.1,#N/A,germ_specific,5
+LOC_Os03g25270,LOC_Os03g25270.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os03g25280,LOC_Os03g25280.1,response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os03g25350,LOC_Os03g25350.1,#N/A,germ_specific,5
+LOC_Os03g26860,LOC_Os03g26860.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os03g27800,LOC_Os03g27800.1,#N/A,germ_specific,5
+LOC_Os03g29190,LOC_Os03g29190.1,response to stimulus/metabolic process,germ_specific,5
+LOC_Os03g46340,LOC_Os03g46340.1,#N/A,germ_specific,5
+LOC_Os03g47270,LOC_Os03g47270.1,#N/A,germ_specific,5
+LOC_Os03g47930,LOC_Os03g47930.1,#N/A,germ_specific,5
+LOC_Os03g48080,LOC_Os03g48080.1,#N/A,germ_specific,5
+LOC_Os03g48626,LOC_Os03g48626.1,#N/A,germ_specific,5
+LOC_Os03g49380,LOC_Os03g49380.1,response to stimulus/metabolic process/response to stress/primary metabolic process,germ_specific,5
+LOC_Os03g50810,LOC_Os03g50810.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os03g51220,LOC_Os03g51220.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os03g56970,LOC_Os03g56970.1,#N/A,germ_specific,5
+LOC_Os03g57200,LOC_Os03g57200.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress/catabolic process,germ_specific,5
+LOC_Os03g62600,LOC_Os03g62600.1,#N/A,germ_specific,5
+LOC_Os03g62790,LOC_Os03g62790.1,#N/A,germ_specific,5
+LOC_Os04g01240,LOC_Os04g01240.1,#N/A,germ_specific,5
+LOC_Os04g01300,LOC_Os04g01300.1,#N/A,germ_specific,5
+LOC_Os04g08310,LOC_Os04g08310.1,#N/A,germ_specific,5
+LOC_Os04g25060,LOC_Os04g25060.1,metabolic process,germ_specific,5
+LOC_Os04g33040,LOC_Os04g33040.1,carbohydrate metabolic process/metabolic process/primary metabolic process/catabolic process,germ_specific,5
+LOC_Os04g44950,LOC_Os04g44950.1,metabolic process,germ_specific,5
+LOC_Os04g51340,LOC_Os04g51340.1,metabolic process,germ_specific,5
+LOC_Os04g55960,LOC_Os04g55960.1,metabolic process,germ_specific,5
+LOC_Os04g56530,LOC_Os04g56530.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os04g58850,LOC_Os04g58850.1,response to stimulus/response to stress,germ_specific,5
+LOC_Os05g03190,LOC_Os05g03190.1,#N/A,germ_specific,5
+LOC_Os05g04380,LOC_Os05g04380.1,response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os05g08370,LOC_Os05g08370.1,response to abiotic stimulus/carbohydrate metabolic process/response to stimulus/metabolic process/response to stress/primary metabolic process,germ_specific,5
+LOC_Os05g09440,LOC_Os05g09440.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os05g13970,LOC_Os05g13970.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os05g16630,LOC_Os05g16630.1,#N/A,germ_specific,5
+LOC_Os05g24550,LOC_Os05g24550.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os05g25450,LOC_Os05g25450.1,response to stimulus/metabolic process/response to stress/primary metabolic process,germ_specific,5
+LOC_Os05g26770,LOC_Os05g26770.1,#N/A,germ_specific,5
+LOC_Os05g39310,LOC_Os05g39310.1,metabolic process,germ_specific,5
+LOC_Os05g46580,LOC_Os05g46580.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os05g48050,LOC_Os05g48050.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os06g04940,LOC_Os06g04940.2,#N/A,germ_specific,5
+LOC_Os06g05700,LOC_Os06g05700.1,metabolic process,germ_specific,5
+LOC_Os06g11290,LOC_Os06g11290.1,response to stimulus/metabolic process/response to stress/primary metabolic process,germ_specific,5
+LOC_Os06g11990,LOC_Os06g11990.1,#N/A,germ_specific,5
+LOC_Os06g13650,LOC_Os06g13650.1,carbohydrate metabolic process/metabolic process/primary metabolic process,germ_specific,5
+LOC_Os06g20150,LOC_Os06g20150.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os06g29430,LOC_Os06g29430.1,primary metabolic process,germ_specific,5
+LOC_Os06g35480,LOC_Os06g35480.1,response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os06g35540,LOC_Os06g35540.1,metabolic process,germ_specific,5
+LOC_Os06g39040,LOC_Os06g39040.1,metabolic process,germ_specific,5
+LOC_Os06g39240,LOC_Os06g39240.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress/primary metabolic process,germ_specific,5
+LOC_Os06g46680,LOC_Os06g46680.1,metabolic process,germ_specific,5
+LOC_Os06g48000,LOC_Os06g48000.1,response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os07g02810,LOC_Os07g02810.1,response to abiotic stimulus/response to stimulus/metabolic process,germ_specific,5
+LOC_Os07g02880,LOC_Os07g02880.1,#N/A,germ_specific,5
+LOC_Os07g07000,LOC_Os07g07000.1,response to stimulus,germ_specific,5
+LOC_Os07g08430,LOC_Os07g08430.1,metabolic process,germ_specific,5
+LOC_Os07g10770,LOC_Os07g10770.1,carbohydrate metabolic process/response to stimulus/metabolic process/response to stress/primary metabolic process,germ_specific,5
+LOC_Os07g10840,LOC_Os07g10840.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress/primary metabolic process/catabolic process,germ_specific,5
+LOC_Os07g25810,LOC_Os07g25810.1,#N/A,germ_specific,5
+LOC_Os07g29320,LOC_Os07g29320.1,#N/A,germ_specific,5
+LOC_Os07g36200,LOC_Os07g36200.1,#N/A,germ_specific,5
+LOC_Os07g38360,LOC_Os07g38360.2,#N/A,germ_specific,5
+LOC_Os07g42960,LOC_Os07g42960.1,metabolic process,germ_specific,5
+LOC_Os07g44610,LOC_Os07g44610.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os08g04180,LOC_Os08g04180.1,metabolic process,germ_specific,5
+LOC_Os08g04210,LOC_Os08g04210.1,response to abiotic stimulus/response to stimulus,germ_specific,5
+LOC_Os08g04240,LOC_Os08g04240.1,response to abiotic stimulus/response to stimulus,germ_specific,5
+LOC_Os08g04250,LOC_Os08g04250.1,response to abiotic stimulus/response to stimulus,germ_specific,5
+LOC_Os08g14570,LOC_Os08g14570.1,metabolic process,germ_specific,5
+LOC_Os08g33720,LOC_Os08g33720.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os08g40690,LOC_Os08g40690.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os08g41110,LOC_Os08g41110.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os09g10940,LOC_Os09g10940.1,#N/A,germ_specific,5
+LOC_Os09g12650,LOC_Os09g12650.1,metabolic process/primary metabolic process/catabolic process,germ_specific,5
+LOC_Os09g25490,LOC_Os09g25490.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os09g28420,LOC_Os09g28420.1,response to stimulus/metabolic process,germ_specific,5
+LOC_Os09g32540,LOC_Os09g32540.1,#N/A,germ_specific,5
+LOC_Os09g34970,LOC_Os09g34970.1,#N/A,germ_specific,5
+LOC_Os10g05069,LOC_Os10g05069.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os10g06690,LOC_Os10g06690.1,#N/A,germ_specific,5
+LOC_Os10g21670,LOC_Os10g21670.1,#N/A,germ_specific,5
+LOC_Os10g21910,LOC_Os10g21910.1,response to stimulus/metabolic process/primary metabolic process,germ_specific,5
+LOC_Os10g22520,LOC_Os10g22520.1,#N/A,germ_specific,5
+LOC_Os10g34930,LOC_Os10g34930.1,response to stimulus/response to stress,germ_specific,5
+LOC_Os10g36870,LOC_Os10g36870.1,#N/A,germ_specific,5
+LOC_Os10g37240,LOC_Os10g37240.2,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os11g01200,LOC_Os11g01200.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os11g10510,LOC_Os11g10510.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress,germ_specific,5
+LOC_Os11g13670,LOC_Os11g13670.1,metabolic process,germ_specific,5
+LOC_Os11g47330,LOC_Os11g47330.1,metabolic process,germ_specific,5
+LOC_Os11g47820,LOC_Os11g47820.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os12g04990,LOC_Os12g04990.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os12g06810,LOC_Os12g06810.1,#N/A,germ_specific,5
+LOC_Os12g16010,LOC_Os12g16010.1,metabolic process,germ_specific,5
+LOC_Os12g33100,LOC_Os12g33100.1,metabolic process/primary metabolic process,germ_specific,5
+LOC_Os12g35610,LOC_Os12g35610.1,response to abiotic stimulus/response to stimulus/metabolic process/response to stress,germ_specific,5
