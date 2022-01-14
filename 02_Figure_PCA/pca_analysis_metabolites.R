@@ -29,7 +29,7 @@ p_emb <- ggplot(scores) +
   xlab(paste0('PC1(',explained_var[1],'%)')) + 
   ylab(paste0('PC2(',explained_var[2],'%)')) + 
   ggtitle('PCA score plot from the embryo metabolome') +
-  scale_color_brewer(type = "qual", palette = 3)
+  scale_color_brewer(type = "qual", palette = 2)
 p_emb
 ggsave(filename = "02_Figure_PCA/embryo_metabolome.pdf", )
 
