@@ -1,11 +1,58 @@
 library("tidyverse")
 library("pheatmap")
 library("RColorBrewer")
+library("rlang")
+library("matrixStats")
 
 
-#####################################
+#######################
+# heatmap color palette
+#######################
+my_palette <- colorRampPalette(colors = c("#fff5eb","#d94801"))
+
+###########################
+# Function to make heatmaps
+###########################
+
+create_heatmap <- function(selected_table = "S2F_12mRNAs") {
+  # get genes of interest corresponding to clusters in suppl. table
+  selected_table <- enquo(selected_table)
+  genes_from_clusters <- filter(clusters, table == !!selected_table)
+  
+  # Retrieve scaled rna abundance for genes from clusters
+  scaled_rna <- inner_join(x = rna_scaled, 
+                           y = genes_from_clusters, 
+                           by = "gene_model") %>% 
+    arrange(cluster) 
+  gene_mat <- scaled_rna %>% 
+    column_to_rownames("gene_model") %>% 
+    select(- table, - cluster, - tissue)
+
+  my_gene_col <- genes_from_clusters %>% 
+    select(- table, - tissue) %>% 
+    column_to_rownames("gene_model")
+
+  
+  pheatmap(gene_mat, 
+           color = my_palette(10),
+           cluster_rows = F, 
+           cluster_cols = FALSE, 
+           fontsize_row = 5, 
+           angle_col = 0,
+           annotation_row = my_gene_col,  
+           scale = "none")
+}
+
+############################
+# Import cluster information
+############################
+
+clusters <- read.csv("03_Figure_rna_prot_regulation/clusters.csv",stringsAsFactors = FALSE) %>% 
+  rename("gene_model" = "protein")
+
+######################################
 # Import endosperm transcriptome data
-#####################################
+######################################
 
 rna <- read.csv("00_data/endosperm_transcriptome_germination.csv", 
                 check.names = F, 
@@ -23,62 +70,29 @@ rna_averaged <-
   group_by(gene_model, time) %>% 
   summarise(avg_expr = mean(avg_expr))
 
-rna_wide <- pivot_wider(rna_averaged, id_cols = "gene_model", names_from = "time", values_from = "avg_expr")
+rna_wide <- pivot_wider(rna_averaged, 
+                        id_cols = "gene_model", 
+                        names_from = "time", 
+                        values_from = "avg_expr") %>% 
+  column_to_rownames("gene_model") %>% 
+  relocate(A4, .after = A0) %>% 
+  relocate(A8, .after = A4) %>% 
+  as.matrix()
 
+## Scale matrix by maximum
+gene_maximums <- rowMaxs(rna_wide)
+rna_scaled <- rna_wide / gene_maximums
+rna_scaled <- as.data.frame(rna_scaled) %>% rownames_to_column("gene_model")
 
-############################
-# Import endosperm prot data 
-############################
-
-prot <- read.csv("03_Figure_rna_prot_regulation/109_endosperm_prot_down_0_vs_24HAI.csv", 
-                    check.names = F, 
-                    stringsAsFactors = F) %>% 
-  rename("gene_model" = "protein") %>% 
-  select(gene_model, log2ratio_A24vsA0)
-
-############################
-# Merge RNA and protein data
-############################
-
-rna_filtered <- inner_join(rna_wide, prot) 
-
+### Clean up
 rm(rna)
 rm(rna_averaged)
 rm(rna_wide)
 
+#####################
+# Endosperm heatmaps
+####################
 
-#########################################
-# Heatmap = endosperm protein down
-#########################################
+create_heatmap(selected_table = "S2H_96mRNAs") # Figure 9
+create_heatmap(selected_table = "S2F_12mRNAs") # Figure 10
 
-## Create matrix for down-regulated endosperm proteins
-gene_mat_down_prot <- 
-  rna_filtered %>% 
-  column_to_rownames("gene_model") %>% 
-  select(- log2ratio_A24vsA0) %>% 
-  relocate(A4, .after = A0) %>% 
-  relocate(A8, .after = A4)
-
-my_sample_col <- data.frame(sample = rep(c("phase_I", "phase_II"), c(3,3)))
-row.names(my_sample_col) <- colnames(gene_mat_down_prot)
-my_colours <- list(sample = c("phase_I" = "#7fc97f", "phase_II" = "#beaed4"))
-
-# gene annotation
-my_gene_col <- 
-  rna_filtered %>% 
-  column_to_rownames("gene_model") %>% 
-  select(log2ratio_A24vsA0) %>% 
-  mutate(log2ratio_A24vsA0 = - log2ratio_A24vsA0) ## Takes the invert to display
-
-my_colours <- list(sample = c("phase_I" = "#7fc97f", "phase_II" = "#beaed4"))
-
-pheatmap(gene_mat_down_prot, 
-         clustering_distance_rows = "euclidean",
-         clustering_method = "ward.D2",
-         cluster_cols = FALSE, 
-         fontsize_row = 5, 
-         angle_col = 0, 
-         scale = "none",
-         annotation_col = my_sample_col,
-         annotation_colors = my_colours,
-         annotation_row = my_gene_col)

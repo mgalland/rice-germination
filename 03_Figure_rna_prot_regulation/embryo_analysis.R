@@ -1,7 +1,55 @@
 library("tidyverse")
 library("pheatmap")
 library("RColorBrewer")
+library("rlang")
+library("matrixStats")
 
+
+#######################
+# heatmap color palette
+#######################
+my_palette <- colorRampPalette(colors = c("#f7fbff","#2171b5"))
+
+###########################
+# Function to make heatmaps
+###########################
+
+create_heatmap <- function(selected_table = "S2B_229mRNAs") {
+  # get genes of interest corresponding to clusters in suppl. table
+  selected_table <- enquo(selected_table)
+  genes_from_clusters <- filter(clusters, table == !!selected_table)
+  
+  # Retrieve scaled rna abundance for genes from clusters
+  scaled_rna <- inner_join(x = rna_scaled, 
+                           y = genes_from_clusters, 
+                           by = "gene_model") %>% 
+    arrange(cluster) 
+  gene_mat <- scaled_rna %>% 
+    column_to_rownames("gene_model") %>% 
+    select(- table, - cluster, - tissue)
+  
+  my_gene_col <- genes_from_clusters %>% 
+    select(- table, - tissue) %>% 
+    column_to_rownames("gene_model")
+
+  
+  pheatmap(gene_mat, 
+           border_color = NA,
+           color = my_palette(10),
+           cluster_rows = F, 
+           cluster_cols = FALSE, 
+           fontsize_row = 5, 
+           angle_col = 0,
+           annotation_row = my_gene_col,  
+           scale = "none")
+}
+
+############################
+# Import cluster information
+############################
+
+clusters <- read.csv("03_Figure_rna_prot_regulation/clusters.csv",stringsAsFactors = FALSE) %>% 
+  rename("gene_model" = "protein")
 
 ##################################
 # Import embryo transcriptome data
@@ -23,107 +71,33 @@ rna_averaged <-
   group_by(gene_model, time) %>% 
   summarise(avg_expr = mean(avg_expr))
 
-rna_wide <- pivot_wider(rna_averaged, id_cols = "gene_model", names_from = "time", values_from = "avg_expr")
+rna_wide <- pivot_wider(rna_averaged, 
+                        id_cols = "gene_model", 
+                        names_from = "time", 
+                        values_from = "avg_expr") %>% 
+  column_to_rownames("gene_model") %>% 
+  relocate(E4, .after = E0) %>% 
+  relocate(E8, .after = E4) %>% 
+  as.matrix()
 
+## Scale matrix by maximum
+gene_maximums <- rowMaxs(rna_wide)
+rna_scaled <- rna_wide / gene_maximums
+rna_scaled <- as.data.frame(rna_scaled) %>% rownames_to_column("gene_model")
 
-#######################################
-# Import embryo prot data (up proteins)
-#######################################
-
-prot_up <- read.csv("03_Figure_rna_prot_regulation/265_emb_prot_up_0_vs_24HAI.csv", 
-                    check.names = F, 
-                    stringsAsFactors = F) %>% 
-  rename("gene_model" = "protein") %>% 
-  mutate(profile = "up") %>% 
-  mutate(t_test = as.numeric(t_test))
-
-prot_down <- read.csv("03_Figure_rna_prot_regulation/152_emb_prot_down_0_vs_24HAI.csv", 
-                    check.names = F, 
-                    stringsAsFactors = F) %>% 
-  rename("gene_model" = "protein") %>% 
-  mutate(profile = "down")
-
-prot <- bind_rows(prot_down, prot_up) %>% 
-  select(gene_model, profile, log2ratio_E24vsE0)
-
-############################
-# Merge RNA and protein data
-############################
-
-rna_filtered <- inner_join(rna_wide, prot) 
-
+### Clean up
 rm(rna)
 rm(rna_averaged)
 rm(rna_wide)
 
-#######################################
-# Heatmap number 01 = embryo protein up
-#######################################
+#################
+# Embryo heatmaps
+#################
 
-## Create matrix for up-regulated embryo proteins
-gene_mat <- 
-  rna_filtered %>% 
-  filter(profile == "up") %>% 
-  column_to_rownames("gene_model") %>% 
-  select(- profile, - log2ratio_E24vsE0) %>% 
-  relocate(E4, .after = E0) %>% 
-  relocate(E8, .after = E4)
+create_heatmap(selected_table = "S2B_229mRNAs") # Figure 7
+create_heatmap(selected_table = "S2D_133mRNAs") # Figure 8
 
 
-# sample annotation
-my_sample_col <- data.frame(sample = rep(c("phase_I", "phase_II"), c(3,3)))
-row.names(my_sample_col) <- colnames(gene_mat)
-my_colours <- list(sample = c("phase_I" = "#7fc97f", "phase_II" = "#beaed4"))
 
-# gene annotation
-my_gene_col <- 
-  rna_filtered %>% 
-  filter(profile == "up") %>% 
-  column_to_rownames("gene_model") %>% 
-  select(log2ratio_E24vsE0)
 
-pheatmap(gene_mat, 
-         clustering_distance_rows = "euclidean",
-         clustering_method = "ward.D2",
-         cluster_cols = FALSE, 
-         fontsize_row = 5, 
-         angle_col = 0, 
-         scale = "none",
-         annotation_col = my_sample_col,
-         annotation_colors = my_colours,
-         annotation_row = my_gene_col)
 
-#########################################
-# Heatmap number 02 = embryo protein down
-#########################################
-
-## Create matrix for down-regulated embryo proteins
-gene_mat_down_prot <- 
-  rna_filtered %>% 
-  filter(profile == "down") %>% 
-  column_to_rownames("gene_model") %>% 
-  select(- profile, - log2ratio_E24vsE0) %>% 
-  relocate(E4, .after = E0) %>% 
-  relocate(E8, .after = E4)
-
-# gene annotation
-my_gene_col <- 
-  rna_filtered %>% 
-  filter(profile == "down") %>% 
-  column_to_rownames("gene_model") %>% 
-  select(log2ratio_E24vsE0) %>% 
-  mutate(log2ratio_E24vsE0 = - log2ratio_E24vsE0) ## Takes the invert to display
-
-my_colours <- list(sample = c("phase_I" = "#7fc97f", "phase_II" = "#beaed4"), 
-                   log2ratio_E24vsE0 = brewer.pal(name = "Blues"))
-
-pheatmap(gene_mat_down_prot, 
-         clustering_distance_rows = "euclidean",
-         clustering_method = "ward.D2",
-         cluster_cols = FALSE, 
-         fontsize_row = 5, 
-         angle_col = 0, 
-         scale = "none",
-         annotation_col = my_sample_col,
-         annotation_colors = my_colours,
-         annotation_row = my_gene_col)
