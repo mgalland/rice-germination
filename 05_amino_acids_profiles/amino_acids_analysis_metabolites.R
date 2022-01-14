@@ -58,3 +58,4 @@ p_endo
 ############
 p_emb + p_endo
 ggsave(filename = "05_amino_acids_profiles/aa_profiles.pdf", width = 20, height = 7)
+ggsave(filename = "05_amino_acids_profiles/aa_profiles.png", width = 20, height = 7)

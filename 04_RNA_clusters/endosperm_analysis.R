@@ -10,13 +10,13 @@ library("GGally")
 
 clusters <- read.csv("03_Figure_rna_prot_regulation/clusters.csv",stringsAsFactors = FALSE) %>% 
   rename("gene_model" = "protein") %>% 
-  filter(tissue == "embryo")
+  filter(tissue == "endosperm")
 
 ##################################
 # Import embryo transcriptome data
 ##################################
 
-rna <- read.csv("00_data/embryo_transcriptome_germination.csv", 
+rna <- read.csv("00_data/endosperm_transcriptome_germination.csv",
                 check.names = F, 
                 stringsAsFactors = F) %>% 
   select(- probe, -locus, - annotation) 
@@ -37,8 +37,8 @@ rna_wide <- pivot_wider(rna_averaged,
                         names_from = "time", 
                         values_from = "avg_expr") %>% 
   column_to_rownames("gene_model") %>% 
-  relocate(E4, .after = E0) %>% 
-  relocate(E8, .after = E4) %>% 
+  relocate(A4, .after = A0) %>% 
+  relocate(A8, .after = A4) %>% 
   as.matrix()
 
 ## Scale matrix by maximum
@@ -61,25 +61,23 @@ df4plot <- inner_join(rna_scaled, clusters, by = "gene_model")
 # Parallel coordinate plot
 #########################
 
-### Cluster S2B 229mRNAs
-
-p229 <- df4plot %>% 
-  filter(table == "S2B_229mRNAs") %>% 
+p96 <- df4plot %>% 
+  filter(table == "S2H_96mRNAs") %>% 
   ggparcoord(., columns = 2:7, groupColumn = 8, scale = "globalminmax") + 
   facet_wrap(~cluster) +
-  ggtitle("Embryo 229 transcripts corresponding to 229 proteins up accumulated")
-p229
+  ggtitle("Endosperm 96 transcripts corresponding to 109 proteins down-accumulated")
+p96
 
-p133 <- df4plot %>% 
-  filter(table == "S2D_133mRNAs") %>% 
+p11 <- df4plot %>% 
+  filter(table == "S2F_12mRNAs") %>% 
   ggparcoord(., columns = 2:7, groupColumn = 8, scale = "globalminmax") + 
   facet_wrap(~cluster) +
-  ggtitle("Embryo 133 transcripts corresponding to 133 proteins down accumulated")
-p133
+  ggtitle("Endosperm 11 transcripts corresponding to 11 proteins up-accumulated")
+p11
 
-p229 + p133 
-ggsave("04_RNA_clusters/embryo_clusters.png", width = 20, height = 8)
-ggsave("04_RNA_clusters/embryo_clusters.pdf", width = 20, height = 8)
+p96 + p11 
+ggsave("04_RNA_clusters/endosperm_clusters.png", width = 20, height = 8)
+ggsave("04_RNA_clusters/endosperm_clusters.pdf", width = 20, height = 8)
 
 
 
