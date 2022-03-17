@@ -3,6 +3,7 @@ library("RColorBrewer")
 library("rlang")
 library("matrixStats")
 library("GGally")
+library("patchwork")
 
 ###########################################
 # Import cluster information for the embryo
@@ -60,24 +61,32 @@ df4plot <- inner_join(rna_scaled, clusters, by = "gene_model")
 #########################
 # Parallel coordinate plot
 #########################
+my_theme <- function(base_size = 12){
+  theme_bw(base_size = base_size)
+}
 
 p96 <- df4plot %>% 
   filter(table == "S2H_96mRNAs") %>% 
   ggparcoord(., columns = 2:7, groupColumn = 8, scale = "globalminmax") + 
-  facet_wrap(~cluster) +
-  ggtitle("Endosperm 96 transcripts corresponding to 109 proteins down-accumulated")
+  facet_wrap(~cluster) + 
+  my_theme() +
+  labs(x = "Time after imbibition", y = "Normalised transcript abundance (AU)") +
+  ggtitle("96 transcripts corresponding to 96 proteins down-accumulated in the endosperm") 
 p96
 
 p11 <- df4plot %>% 
   filter(table == "S2F_12mRNAs") %>% 
   ggparcoord(., columns = 2:7, groupColumn = 8, scale = "globalminmax") + 
   facet_wrap(~cluster) +
-  ggtitle("Endosperm 11 transcripts corresponding to 11 proteins up-accumulated")
+  labs(x = "Time after imbibition", y = "Normalised transcript abundance (AU)") +
+  ggtitle("10 transcripts corresponding to 10 proteins up-accumulated in the endosperm") + 
+  my_theme()
 p11
 
 p96 + p11 
 ggsave("04_RNA_clusters/endosperm_clusters.png", width = 20, height = 8)
 ggsave("04_RNA_clusters/endosperm_clusters.pdf", width = 20, height = 8)
+ggsave("04_RNA_clusters/endosperm_clusters.svg", width = 20, height = 8)
 
 
 
