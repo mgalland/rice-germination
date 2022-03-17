@@ -102,14 +102,14 @@ N_genes_endosperm <- inner_join(endo_rna, endosperm_protein, by = "gene") %>% nr
 p_endosperm <- inner_join(endo_rna, endosperm_protein, by = "gene") %>% 
   ggplot(., aes(x = endosperm_rna_log2fc, y = endosperm_protein_log2fc)) +
   geom_point() + 
-  xlim(-6, +6) +
-  ylim(-6,+6) +
+  xlim(-2, +2) +
+  ylim(-2,+2) +
   theme_classic() + 
   labs(x = "Endosperm mRNA log2 fold change (24 vs 0 HAI)", 
        y = "Endosperm protein log2 fold change (24 vs 0 HAI)") +
-  annotate(geom = "text", x = -3, y = 5, 
+  annotate(geom = "text", x = -1.05, y = 2, 
            label = paste("Spearman correlation coefficient:", as.character(round(endosperm_cor, 2)))) +
-  annotate(geom = "text", x = -4, y = 4, 
+  annotate(geom = "text", x = -1.5, y = 1.5, 
            label = paste("Number of genes: ", as.character(N_genes_endosperm))) +
   geom_abline(intercept = 0, slope = 1, colour = "orange") +
   ggtitle("Endosperm")
@@ -120,6 +120,7 @@ p_endosperm
 ##########################
 
 p_combined <- p_emb + p_endosperm
+p_combined
 ggsave(p_combined, 
        filename = "06_correlation_transcriptome_proteome/FigureSX_correlation_RNA_protein.pdf",
        width = 12, 
